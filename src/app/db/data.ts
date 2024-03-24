@@ -5,11 +5,11 @@
 // os horarios e dias das profissionais.
 // E as profissionais porem marcar na agenda os dias que não estariam disponiveis
 
-
-const professionals = [
+export const professionalList = [
   {
+    id: 1,
     name: 'Gabi',
-    bio: 'Profissonal de excelencia',
+    bio: 'Profissional de excelencia',
     services: [
       {
         name: 'Cilios',
@@ -51,14 +51,16 @@ const professionals = [
   },
 ];
 
-const services = [
+export const serviceList = [
   {
+    id: 1,
     name: 'Cilios',
+    description: '',
     duration: 3000,
     price: 100,
-    description: '',
     professionals: [
       {
+        id: 1,
         name: 'Gabi',
         price: 100,
         avaiableDates: [
@@ -68,6 +70,13 @@ const services = [
             avaiableTimes: [8, 9, 10, 11],
           },
         ],
+      },
+    ],
+    avaiableDates: [
+      {
+        date: '01/05/2024',
+        available: true,
+        avaiableTimes: [8, 9, 10, 11],
       },
     ],
   },

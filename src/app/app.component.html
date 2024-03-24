@@ -135,6 +135,9 @@
       Agendamento
     </button>
   </div>
+  <div *ngFor="let service of services">
+    <app-card-service [service]="service"></app-card-service>
+  </div>
   <app-table></app-table>
 </main>
 

@@ -4,7 +4,8 @@
 // Só precisar que a Secretaria consiga visualizar,
 // os horarios e dias das profissionais.
 // E as profissionais porem marcar na agenda os dias que não estariam disponiveis
-
+// Criar na V2 - Google Calendar
+// https://github.com/cleberpereiradasilva/python-django-agendamento
 export const professionalList = [
   {
     id: 1,
